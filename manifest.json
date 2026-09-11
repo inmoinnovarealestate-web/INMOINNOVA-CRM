@@ -1,11 +1,11 @@
 {
-  "name": "INMOINNOVA REAL ESTATE",
-  "short_name": "Inmoinnova",
+  "name": "Inmoinnova CRM",
+  "short_name": "Inmoinnova CRM",
   "description": "Centro de Operaciones para el Agente Inmobiliario - CRM IMNOVITA",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0B132B",
-  "theme_color": "#0B132B",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
   "icons": [
     {
       "src": "assets/icon-192.png",
