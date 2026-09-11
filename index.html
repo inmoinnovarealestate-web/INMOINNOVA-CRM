@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>INMOINNOVA REAL ESTATE</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0B132B">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden; /* Elimina scroll doble y fuerza pantalla completa */
+            background-color: #0B132B; /* Azul marino corporativo */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tu Apps Script funcionando como núcleo del CRM -->
+    <iframe src="https://script.google.com/macros/s/AKfycbzvwA8hlq5HoFL7OPAf7s9iCkJMrnkjCqhzbDHxMeWKmqtxn6Wldfnx5djFfTMHnckM1g/exec" allow="clipboard-write"></iframe>
 
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(() => console.log('PWA activada correctamente'));
+        }
+    </script>
+</body>
+</html>
